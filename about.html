@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('header.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.querySelector('head').innerHTML += data;
+                });
+        });
+    </script>
+</head>
+<body>
+    <div id="navbar"></div>
+    <script>
+        fetch("navbar.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("navbar").innerHTML = data;
+            
+            const script = document.createElement("script");
+            script.src = "main-2.js";
+            document.body.appendChild(script);
+        });
+    </script>
+    <!-- End of navigation bar -->
+
+    <header class="hero-wrapper about">
+        <div id="top" class="hero-section about">
+            <h1 class="hero-text profile-name">A. Adhi Nugraha</h1>
+            <div class="profile-container">
+                <div class="profile-background"></div>
+                <img class="profile-pic" src="images/face-emoji-2.webp"/>
+            </div>
+        </div>
+        <h2 class="tagline">Digital Designer with a Dash of Everything</h2>
+    </header>
+    <!-- End of the Hero Section -->
+
+    <section class="about-paragraph-container">
+        <p>
+            I started my career as an architect, and that foundation has equipped me with a unique set of skills that now inform my work in digital design. Being an architect taught me to approach problems holistically, ensuring the structure and aesthetics of a project align seamlessly—an approach I now bring to designing digital experiences.
+        </p>
+        <br>
+        <p>  
+            Currently, I manage my family’s contractor and supplier company, working full-time from 7 to 4. Alongside that, I’m expanding my expertise in digital design, diving deep into HTML, CSS, and JavaScript to make myself as flexible in the digital world as an architect who understands the intricacies of civil engineering. My vision is to develop a T-shaped skillset, with a wide range of digital design skills but focusing specifically on web animations and immersive AR/VR/MR/XR UX/UI design.
+        </p>
+    </section>
+
+    <section class="my-voyage">
+        <h2 class="subtitle">My Voyage</h2>
+        <div class="experiences-container">
+            <div class="company btp">
+                <h3 class="label btp">PT Bangkit Teknik Perkasa</h3>
+                <div class="position-container-outer">
+                    <div class="position-container">
+                        <div class="position">Managing Director</div>
+                        <div class="connecting-dots"></div>
+                        <div class="period">Oct 2023 - now</div>
+                    </div>
+                    <div class="position-container">
+                        <div class="position">Operations Director</div>
+                        <div class="connecting-dots"></div>
+                        <div class="period">May 2021 - Oct 2023</div>
+                    </div>
+                </div>
+            </div>
+            <div class="company uiuxindo">
+                <h3 class="label uiuxindo">UIUXINDO</h3>
+                <div class="position-container">
+                    <div class="position">Content Writer</div>
+                    <div class="connecting-dots"></div>
+                    <div class="period">Aug 2022 – Oct 2022</div>
+                </div>
+            </div>
+            <div class="company gholdings">
+                <h3 class="label gholdings">G Holdings Co., Ltd.</h3>
+                <div class="position-container">
+                    <div class="position">Architect</div>
+                    <div class="connecting-dots"></div>
+                    <div class="period">Dec 2018 – Dec 2020</div>
+                </div>
+            </div>
+        </div>
+        <a href="https://linkedin.com/in/achmadadhinugraha" target="_blank" class="button-unfilled">
+            <span class="cta-text">View in Detail</span>
+            <div class="top-right-icon" alt="Icon"></div>
+        </a>
+    </section>
+
+    <section class="pre-footer">
+        <h2>Now that you know me... Let's create something awesome!</h2>
+        <a href="mailto:adhingrha@gmail.com?subject=Inquiry from Your Website Visitor&body=Hi Adhi,%0D%0A%0D%0AI've just visited your website and I'm interested in [your work/REPUTASEE/your design philosophy/etc.]. I'd like to discuss [topic/idea/project] with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0A%0D%0ABest,%0D%0A[Your Name]" target="_blank" class="button-unfilled">
+            <span class="cta-text">Get In Touch</span>
+            <div class="top-right-icon" alt="Icon"></div>
+        </a>
+        <p>Whether you’re embarking on a new project, showcasing your work, or simply wish to connect, my inbox is open. I look forward to hearing from you!</p>
+    </section>
+
+    <footer id="footer"></footer>
+    <script>
+        fetch("footer.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("footer").innerHTML = data;
+            
+            const script = document.createElement("script");
+            script.src = "main.js";
+            document.body.appendChild(script);
+        });
+    </script>
+    <!-- End of footer -->
+</body>
+</html>
