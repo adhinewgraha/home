@@ -1,0 +1,56 @@
+<!-- navbar.html -->
+<div id="container" class="navbar smaller">
+    <div id="inner-container" class="smaller-screen-nav">
+        <nav class="smaller-screen-nav">
+            <a class="logo-container" href="index.html" onclick="window.location.href='index.html'; setTimeout(function() { window.scrollTo({top: -120, behavior: 'smooth'}); }, 100);">
+                <img class="logo-midnight" src="images/logo-midnight.png" alt="Midnight version of the logo of A. Adhi Nugraha">
+            </a>                  
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </nav>
+        <div class="mobile-menu-container">
+            <ul class="menu-outer-container">
+                <li>
+                    <a class="menu-text" href="about.html">About</a>
+                </li>
+                <li>
+                    <a class="menu-text" href="#activities">Activities</a>
+                </li>
+                <li>
+                    <a class="menu-text" href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a class="menu-text" href="#references">References</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- End of mobile navigation bar -->
+
+<div id="container" class="navbar larger">
+    <nav class="larger-screen-nav col-12">
+        <a class="logo-container" href="index.html" onclick="window.location.href='index.html'; setTimeout(function() { window.scrollTo({top: -120, behavior: 'smooth'}); }, 100);">
+            <img class="logo-midnight" src="images/logo-midnight.png" alt="Midnight version of the logo of A. Adhi Nugraha">
+        </a>
+        <ul class="menu-outer-container">
+            <li class="menu-inner-container">
+                <a class="menu-text" href="about.html">About</a>
+            </li>
+            <li class="menu-inner-container">
+                <a class="menu-text" href="#activities">Activities</a>
+            </li>
+            <li class="menu-inner-container">
+                <a class="menu-text" href="#projects">Projects</a>
+            </li>
+            <li class="menu-inner-container">
+                <a class="menu-text" href="#references">References</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<!-- End of larger screen navigation bar -->
+<!-- End of navigation bar -->

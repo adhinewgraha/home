@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Waste4Change: Send Your Waste</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('header.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.querySelector('head').innerHTML += data;
+                });
+        });
+    </script>
+</head>
+<body>
+    <div id="navbar"></div>
+    <script>
+        fetch("navbar.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("navbar").innerHTML = data;
+            
+            const script = document.createElement("script");
+            script.src = "main-2.js";
+            document.body.appendChild(script);
+        });
+    </script>
+    <!-- End of navigation bar -->
+
+    <header class="projects w4c">
+        <div class="hero-section projects">
+            <h2 class="title">Waste4Change: Send Your Waste</h2>
+            <img class="header-image" src="images/header-w4c.webp" alt="Header of the Waste4Change: Send Your Waste project"/>
+        </div>
+    </header>
+    <!-- End of project header -->
+
+    <section class="project-explanation-container">
+        <div class="chapter-container">
+            <h3 class="chapter-title">🏢 About Client</h3>
+            <p class="chapter-content">
+                Waste4Change is an environmental service company with a mission to manage waste responsibly and sustainably. The company provides waste management solutions for individuals and businesses, promoting recycling and proper disposal.
+            </p>
+        </div>
+        <div class="chapter-container">
+            <h3 class="chapter-title">📝 My Role</h3>
+            <div>
+                <p class="chapter-content">
+                    The project began as a collaborative effort with a team of three. As the project progressed, I took on the full scope of the work to bring our vision to fruition. My responsibilities included:
+                </p>
+                <br>
+                <ul class="chapter-content">
+                    <li>Conducting user research and usability testing.</li>
+                    <li>Developing the UX strategy and UI design.</li>
+                    <li>Creating and iterating on the final high-fidelity prototype.</li>
+                </ul>
+                <br>
+                <p class="chapter-content">
+                    This approach allowed me to dive deeply into every aspect of the design process, ensuring a comprehensive understanding and a cohesive end product.
+                </p>
+            </div>
+        </div>
+        <div class="chapter-container">
+            <h3 class="chapter-title">❓ Problem Statement – Why?</h3>
+            <p class="chapter-content">
+                The main issue was the lack of an intuitive and seamless experience for users attempting to use the “Send Your Waste” service. Users faced challenges navigating the platform, which affected the overall user experience, making it difficult to access the service smoothly.
+            </p>
+        </div>
+        <div class="chapter-container">
+            <h3 class="chapter-title">🗺️ Information Architecture – How?</h3>
+            <p class="chapter-content">
+                The redesign focused on restructuring the platform to ensure a more streamlined and user-friendly interface. Simplifying navigation and improving the accessibility of essential features were key components of the solution.
+            </p>
+        </div>
+        <div class="chapter-container">
+            <h3 class="chapter-title">🔄 User Flow</h3>
+            <p class="chapter-content">
+                The revised user flow was designed to allow users to easily navigate from the homepage to the “Send Your Waste” service, offering clear steps and guidance throughout the process. This improved flow reduced confusion and enhanced the overall user journey.
+            </p>
+        </div>
+        <div class="chapter-container">
+            <h3 class="chapter-title">🔧 Problem & Solution – What?</h3>
+            <div class="subchapter-container">
+                <h4 class="subchapter-title">Problem</h4>
+                <p class="chapter-content">
+                    Users found it difficult to navigate the platform, leading to frustration and potential abandonment of the service.
+                </p>
+            </div>
+            <div class="subchapter-container">
+                <h4 class="subchapter-title">Solution</h4>
+                <p class="chapter-content">
+                    The platform was redesigned to be more intuitive, simplifying the user interface and enhancing the user journey with clearer instructions and an improved flow for submitting waste.
+                </p>
+            </div>
+        </div>
+        <div class="chapter-container">
+            <h3 class="chapter-title">🌟 Impact of Work</h3>
+            <p class="chapter-content">
+                The redesign resulted in a more user-friendly platform, increasing accessibility and making it easier for users to engage with the service. This contributed to a better user experience and likely improved customer satisfaction.
+            </p>
+        </div>
+        <div class="chapter-container">
+            <h3 class="chapter-title">🎓 Learnings</h3>
+            <p class="chapter-content">
+                This project reinforced the importance of understanding user pain points and how strategic design changes can significantly impact user engagement. The experience highlighted the value of user-centric design in solving complex UX challenges.
+            </p>
+        </div>
+    </section>
+    <!-- End of project explanation section -->
+
+    <footer id="footer"></footer>
+    <script>
+        fetch("footer.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("footer").innerHTML = data;
+            
+            const script = document.createElement("script");
+            script.src = "main.js";
+            document.body.appendChild(script);
+        });
+    </script>
+    <!-- End of footer -->
+</body>
+</html>
