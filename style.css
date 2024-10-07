@@ -850,7 +850,7 @@ nav {
 .icon {
     position: absolute;
     top: 50%;
-    right: 16px;
+    right: 8px;
     margin-left: 8px;
     transform: translateY(-50%);
     font-size: clamp(1.125rem, 0.9083rem + 0.9245vw, 1.5rem);
@@ -869,6 +869,10 @@ nav {
     .activities-section {
         max-width: 80%;
         padding-inline: 0;
+    }
+
+    .icon {
+        right: 16px;
     }
 }
 
