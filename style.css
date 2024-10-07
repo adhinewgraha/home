@@ -831,16 +831,13 @@ nav {
 }
 
 .label{
-    font-size: 28px;
-    font-family: Epilogue, sans-serif;
-    font-weight: 700;
     text-transform: uppercase;
     line-height: 120%;
     word-wrap: break-word;
     position: relative;
     padding: 12px;
     padding-left: 0px;
-    padding-right: 32px; /* Add some padding to make it not overlap the icon */
+    padding-right: 32px;
     color: var(--raisin-gray);
     cursor: pointer;
 }
@@ -848,11 +845,15 @@ nav {
 .icon {
     position: absolute;
     top: 50%;
-    right: 24px;
-    margin-left: 8px; /* Add some margin to space it from the label text */
+    right: 16px;
+    margin-left: 8px;
     transform: translateY(-50%);
     font-size: 24px;
     transition: transform 0.6s ease-out;
+}
+
+.label.button-unfilled {
+    padding: 24px 0;
 }
 
 .content-box.active .icon {
