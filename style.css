@@ -547,7 +547,7 @@ nav {
 .infinite-slider {
     box-sizing: border-box;
     margin-inline: 16px;
-    padding-block: 1rem;
+    padding-block: 0.5rem;
     border-block: 1.2px solid;
     overflow: hidden;
     user-select: none;
@@ -621,7 +621,7 @@ nav {
 
 @media screen and (min-width: 768px) {
     .infinite-slider {
-        padding-block: 0.5rem;
+        padding-block: 1rem;
         margin-left: 64px;
         margin-right: 64px;
     }
