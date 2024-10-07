@@ -96,7 +96,7 @@ p.footer-text{
     height: 100%; 
     background: none;
     border: none;
-    adding: 0;
+    padding: 0;
     margin: 0;
     justify-content: center; 
     align-items: flex-start; 
@@ -108,7 +108,7 @@ p.footer-text{
 .cta-text {
     color: var(--ocean-blue); 
     font-size: clamp(1.99875rem, 1.7095rem + 1.2342vw, 2.499375rem);
-    font-family: Eilogue, sans-serif; 
+    font-family: Epilogue, sans-serif; 
     font-weight: 700; 
     text-transform: uppercase; 
     word-wrap: break-word;
@@ -194,6 +194,11 @@ a:hover .cta-button-text {
     letter-spacing: 0.4%;
     text-align: justify;
     word-wrap: break-word;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: start;
+    gap: 12px;
 }
 
 .position-container .position {
@@ -1365,15 +1370,6 @@ nav {
     padding: 0;
 }
 
-.company .position-container {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: start;
-    gap: 8px;
-    
-}
-
 .company.btp {
     padding-top: 0;
 }
@@ -1381,7 +1377,7 @@ nav {
 .dot-container {
     flex-grow: 1;
     display: block;
-    height: calc(160% * font-size: clamp(1rem, 0.9278rem + 0.3082vw, 1.125rem));
+    height: 32px;
     place-content: center;
 }
 
@@ -1393,8 +1389,7 @@ nav {
 }
 
 .position, .period {
-    overflow: hidden;
-    overflow-wrap: break-word;
+    width: max-content;
 }
 
 .position-container .position {
