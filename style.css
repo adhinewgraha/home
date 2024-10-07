@@ -377,7 +377,7 @@ nav {
 
 @media screen and (min-width: 768px) {
     .larger-screen-nav {
-        width: 100vw;
+        width: 100%;
         position: fixed;
         justify-content: center;
         align-items: center;
@@ -502,7 +502,7 @@ nav {
 
 @media (min-width: 768px) {
     .hero-wrapper {
-        max-width: 80vw;
+        max-width: 80%;
     }
     
     .hero-section {
@@ -524,7 +524,7 @@ nav {
 
 @media (min-width: 1200px) {
     .hero-wrapper {
-        max-width: 60vw;
+        max-width: 60%;
     }
 
     .hero-section {
@@ -748,14 +748,14 @@ nav {
 
 @media screen and (min-width: 768px) {
     .intro-section {
-        max-width: 80vw;
+        max-width: 80%;
         margin: auto;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .intro-section {
-        max-width: 60vw;
+        max-width: 60%;
     }
     
     .stickers {
@@ -859,7 +859,7 @@ nav {
 
 @media screen and (min-width:768px) {
     .activities-section {
-        max-width: 80vw;
+        max-width: 80%;
     }
 }
 
@@ -961,13 +961,13 @@ nav {
 
 @media screen and (min-width: 768px) {
     .projects-section{
-        width: 80vw;
+        width: 80%;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .projects-section{
-        width: 60vw;
+        width: 60%;
     }
 }
 
@@ -1098,7 +1098,7 @@ nav {
 
 @media screen and (min-width: 768px) {
     .references-section {
-        width: 80vw;
+        width: 80%;
         margin: auto;
     }
 
@@ -1113,7 +1113,7 @@ nav {
 
 @media screen and (min-width: 1024px) {
     .references-section {
-        width: 60vw;
+        width: 60%;
     }
 
     .cards-container .card{
@@ -1196,14 +1196,14 @@ nav {
 
 @media screen and (min-width: 768px) {
     .social-section {
-        max-width: 80vw;
+        max-width: 80%;
         padding-inline: 0;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .social-section {
-        max-width: 60vw;
+        max-width: 60%;
     }
 }
 
@@ -1282,7 +1282,7 @@ nav {
 
 @media screen and (min-width: 768px) {
     .hero-wrapper.about {
-        max-width: 80vw;
+        max-width: 80%;
     }
 
     .hero-section.about {
@@ -1309,7 +1309,7 @@ nav {
     }
     
     .about-paragraph-container {
-        width: 80vw;
+        width: 80%;
         margin: auto;
         padding-inline: 0;
     }
@@ -1317,11 +1317,11 @@ nav {
 
 @media screen and (min-width: 1024px) {
     .hero-wrapper.about {
-        max-width: 60vw;
+        max-width: 60%;
     }
 
     .about-paragraph-container {
-        width: 60vw;
+        width: 60%;
     }
 }
 
@@ -1388,7 +1388,7 @@ nav {
 
 @media screen and (min-width: 768px) {
     .my-voyage {
-        max-width: 80vw;
+        max-width: 80%;
     }
     
     .experiences-container {
@@ -1398,7 +1398,7 @@ nav {
 
 @media screen and (min-width: 1024px) {
     .my-voyage {
-        max-width: 60vw;
+        max-width: 60%;
     }
 }
 
@@ -1415,14 +1415,14 @@ section.pre-footer {
 
 @media screen and (min-width: 768px) {
     section.pre-footer {
-        max-width: 80vw;
+        max-width: 80%;
         margin: auto;
     }
 }
 
 @media screen and (min-width: 1024px) {
     section.pre-footer {
-        max-width: 60vw;
+        max-width: 60%;
     }
 }
 
@@ -1462,7 +1462,7 @@ header.projects.w4c {
 
 @media screen and (min-width: 768px) {
     header.projects.w4c {
-        max-width: 80vw;
+        max-width: 80%;
     }
     
     .hero-section.projects {
@@ -1513,7 +1513,7 @@ p.chapter-content, ul.chapter-content {
 
 @media screen and (min-width: 768px) {
     .project-explanation-container {
-        max-width: 80vw;
+        max-width: 80%;
         margin: auto;
     }
 
@@ -1524,7 +1524,7 @@ p.chapter-content, ul.chapter-content {
 
 @media screen and (min-width: 1024px) {
     .project-explanation-container {
-        max-width: 60vw;
+        max-width: 60%;
     }
 }
 
@@ -1535,7 +1535,7 @@ p.chapter-content, ul.chapter-content {
 /* STYLES THE FOOTER */
 
 footer {
-    width: 100vw;
+    width: 100%;
     background: var(--midnight-blue); 
     display: flex;
 }
