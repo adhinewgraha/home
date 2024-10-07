@@ -840,6 +840,7 @@ nav {
     position: relative;
     padding: 12px;
     padding-left: 0px;
+    padding-right: 32px; /* Add some padding to make it not overlap the icon */
     color: var(--raisin-gray);
     cursor: pointer;
 }
@@ -848,6 +849,7 @@ nav {
     position: absolute;
     top: 50%;
     right: 24px;
+    margin-left: 8px; /* Add some margin to space it from the label text */
     transform: translateY(-50%);
     font-size: 24px;
     transition: transform 0.6s ease-out;
