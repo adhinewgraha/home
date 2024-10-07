@@ -989,7 +989,7 @@ nav {
     align-items: center; 
     gap: 32px;
     margin: auto;
-    padding-block: 48px;
+    padding: 48px 16px;
 }
 
 .cards-container{
@@ -998,7 +998,6 @@ nav {
     align-items: flex-start; 
     flex-direction: column;
     gap: 16px; 
-    margin-inline: 16px;
     display: flex;
 }
 
@@ -1155,14 +1154,17 @@ nav {
 .label.social-text {
     position: relative;
     display: inline;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    text-align: justify;
-    gap: 16px;
     cursor: text;
     margin: auto;
     padding: 0;
+    font-family: Epilogue, sans-serif;
+    font-size: clamp(1.499375rem, 1.3444rem + 0.661vw, 1.7675rem);
+    font-weight: 700; 
+    line-height: 120%; 
+    letter-spacing: -2.4%;
+    text-align: justify;
+    text-transform: uppercase;
+    word-wrap: break-word;
 }
 
 .social-link.instagram {
