@@ -21,7 +21,7 @@ h1{
     text-align: center;
     text-transform: uppercase;
     word-wrap: break-word;
-    font-size: clamp(4rem, 3.7333rem + 1.4222vw, 4.8rem);
+    font-size: clamp(2.75rem, 1.7388rem + 4.3143vw, 4.5rem);
 }
 
 h2{
