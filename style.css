@@ -21,7 +21,8 @@ h1{
     text-align: center;
     text-transform: uppercase;
     word-wrap: break-word;
-    font-size: clamp(2.664375rem, 2.162rem + 2.1433vw, 3.53375rem);
+    /* font-size: clamp(2.664375rem, 2.162rem + 2.1433vw, 3.53375rem); */
+    font-size: clamp(2.664375rem, 1.7128rem + 4.0601vw, 4.31125rem);
 }
 
 h2{
@@ -508,7 +509,7 @@ nav {
     .hero-section {
         min-height: 0;
         margin-top: calc(158px + 48px);
-        margin-bottom: 48px;
+        margin-bottom: 64px;
         top: 120px;
         transform: translateY(-120px);
     }
@@ -633,8 +634,8 @@ nav {
     align-items: center;
     justify-content: center;
     margin: auto;
-    padding: 48px 96px;
-    padding-inline: 32px;
+    padding-block: 96px 48px;
+    padding-inline: 16px;
     gap: 32px;
 }
 
@@ -748,6 +749,7 @@ nav {
     .intro-section {
         max-width: 80%;
         margin: auto;
+        padding-inline: 0;
     }
 }
 
@@ -1000,15 +1002,15 @@ nav {
 .card {
     flex: 1 1 0; 
     align-self: stretch; 
-    padding: 40px; 
+    padding: 32px; 
     background: var(--skyline-blue); 
     border-radius: 12px; 
     border: 0.80px var(--raisin-gray) solid; 
     flex-direction: column; 
     justify-content: flex-start;
     align-items: flex-start; 
-    gap: 16px; 
     display: inline-flex;
+    gap: 16px;
 }
 
 .card-content{
@@ -1023,13 +1025,9 @@ nav {
 .card-title{
     align-self: stretch; 
     text-align: center; 
-    color: var(--raisin-gray); 
-    font-size: 28px; 
-    font-family: Epilogue; 
-    font-weight: 700; 
     text-transform: uppercase; 
-    line-height: 36px; 
     word-wrap: break-word;
+    margin: 0;
 }
 
 .referencer{
@@ -1108,6 +1106,12 @@ nav {
 
     .card {
         gap: 24px;
+        padding: 48px;
+    }
+
+    
+    .card-content{
+        gap: 24px; 
     }
 }
 
@@ -1435,6 +1439,7 @@ header.projects.w4c {
     display: flex;
     flex-direction: column;
     margin-top: calc(64px + 32px);
+    margin-bottom: 32px;
     padding-inline: 16px;
     justify-content: center;
     align-items: center;
@@ -1456,6 +1461,7 @@ header.projects.w4c {
     
     .hero-section.projects {
         margin-top: calc(158px + 64px);
+        margin-bottom: 48px;
         padding: 0;
     }
 }
