@@ -1369,6 +1369,7 @@ nav {
 .label.btp, .label.uiuxindo, .label.gholdings {
     margin: 0;
     padding: 0;
+    cursor: auto;
 }
 
 .company.btp {
