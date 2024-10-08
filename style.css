@@ -546,7 +546,7 @@ nav {
 .infinite-slider {
     box-sizing: border-box;
     margin-inline: 16px;
-    padding-block: 0.5rem;
+    padding-block: 1rem;
     border-block: 1.2px solid;
     overflow: hidden;
     user-select: none;
@@ -620,7 +620,7 @@ nav {
 
 @media screen and (min-width: 768px) {
     .infinite-slider {
-        padding-block: 1rem;
+        padding-block: 0.5rem;
         margin-left: 64px;
         margin-right: 64px;
     }
@@ -849,7 +849,7 @@ nav {
 .icon {
     position: absolute;
     top: 50%;
-    right: 8px;
+    right: 16px;
     margin-left: 8px;
     transform: translateY(-50%);
     font-size: clamp(1.125rem, 0.9083rem + 0.9245vw, 1.5rem);
@@ -868,10 +868,6 @@ nav {
     .activities-section {
         max-width: 80%;
         padding-inline: 0;
-    }
-
-    .icon {
-        right: 16px;
     }
 }
 
@@ -960,14 +956,15 @@ nav {
 }
 
 .keyword-inner-container {
-    padding: 8px 16px;
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-top: 10px; 
     border: 0.8px var(--raisin-gray) solid; 
     box-sizing: border-box;
 }
 
 .project-keyword {
     word-wrap: normal;
-    margin: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -1369,7 +1366,6 @@ nav {
 .label.btp, .label.uiuxindo, .label.gholdings {
     margin: 0;
     padding: 0;
-    cursor: auto;
 }
 
 .company.btp {
@@ -1380,8 +1376,8 @@ nav {
     flex-grow: 1;
     display: flex;
     min-height: 28.8px;
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally if needed */
+    align-items: center;
+    justify-content: center;
 }
 
 .connecting-dots {
@@ -1414,8 +1410,8 @@ nav {
     }
 
     .dot-container {
-    min-height: calc(28.8px + (32.4 - 28.8) * ((100vw - 375px) / (1024 - 375)));
-}
+        min-height: 30.98px;
+    }
     
     .position-container .position {
         width: max-content;
@@ -1428,7 +1424,8 @@ nav {
     }
 
     .dot-container {
-    min-height: 32.4px;
+        min-height: 32.4px;
+    }
 }
 
 
