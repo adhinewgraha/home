@@ -21,6 +21,7 @@ h1{
     text-align: center;
     text-transform: uppercase;
     word-wrap: break-word;
+    /* font-size: clamp(2.664375rem, 2.162rem + 2.1433vw, 3.53375rem); */
     font-size: clamp(2.664375rem, 1.7128rem + 4.0601vw, 4.31125rem);
 }
 
@@ -1349,6 +1350,7 @@ nav {
 
 .position-container-outer {
     width: 100%;
+    gap: 16px;
 }
 
 .experiences-container .company {
@@ -1359,7 +1361,7 @@ nav {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 16px;
+    gap: 8px;
     display: inline-flex;
 }
 
@@ -1374,17 +1376,16 @@ nav {
 
 .dot-container {
     flex-grow: 1;
-    display: flex;
-    min-height: 28.8px;
-    align-items: center;
-    justify-content: center;
+    display: block;
+    height: 32px;
+    place-content: center;
 }
 
 .connecting-dots {
     width: 100%;
     height: 1.2px;
     border: 1.2px var(--raisin-gray) dotted;
-    align-self: center;
+    align-self: stretch;
 }
 
 .position, .period {
@@ -1397,7 +1398,7 @@ nav {
 }
 
 .company .position-container:not(:last-child) {
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1408,10 +1409,6 @@ nav {
     .experiences-container {
         margin: 0;
     }
-
-    .dot-container {
-        min-height: 30.98px;
-    }
     
     .position-container .position {
         width: max-content;
@@ -1421,10 +1418,6 @@ nav {
 @media screen and (min-width: 1024px) {
     .my-voyage {
         max-width: 60%;
-    }
-
-    .dot-container {
-        min-height: 32.4px;
     }
 }
 
