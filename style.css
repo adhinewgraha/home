@@ -21,7 +21,6 @@ h1{
     text-align: center;
     text-transform: uppercase;
     word-wrap: break-word;
-    /* font-size: clamp(2.664375rem, 2.162rem + 2.1433vw, 3.53375rem); */
     font-size: clamp(2.664375rem, 1.7128rem + 4.0601vw, 4.31125rem);
 }
 
@@ -1353,7 +1352,6 @@ nav {
 
 .position-container-outer {
     width: 100%;
-    gap: 16px;
 }
 
 .experiences-container .company {
@@ -1364,7 +1362,7 @@ nav {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 8px;
+    gap: 16px;
     display: inline-flex;
 }
 
@@ -1402,7 +1400,7 @@ nav {
 }
 
 .company .position-container:not(:last-child) {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
 
 @media screen and (min-width: 768px) {
