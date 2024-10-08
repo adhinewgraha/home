@@ -1379,7 +1379,7 @@ nav {
 .dot-container {
     flex-grow: 1;
     display: flex;
-    min-height: 32px;
+    min-height: 28.8px;
     align-items: center; /* Center vertically */
     justify-content: center; /* Center horizontally if needed */
 }
@@ -1412,6 +1412,10 @@ nav {
     .experiences-container {
         margin: 0;
     }
+
+    .dot-container {
+    min-height: calc(28.8px + (32.4 - 28.8) * ((100vw - 375px) / (1024 - 375)));
+}
     
     .position-container .position {
         width: max-content;
@@ -1422,6 +1426,9 @@ nav {
     .my-voyage {
         max-width: 60%;
     }
+
+    .dot-container {
+    min-height: 32.4px;
 }
 
 
