@@ -1122,6 +1122,7 @@ nav {
     align-self: start; 
     color: var(--raisin-gray);
     text-align: left;
+    text-align-last: auto;
     margin: 0;
     line-height: 100%;
 }
@@ -1130,6 +1131,7 @@ nav {
     align-self: start; 
     color: var(--raisin-gray); 
     text-align: left;
+    text-align-last: auto;
     margin: 0;
     line-height: 100%;
 }
