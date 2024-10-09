@@ -1056,6 +1056,12 @@ nav {
     display: flex;
 }
 
+.card-content p {
+    text-align-last: auto;
+    -webkit-hyphenate-character: auto;
+    hyphens: auto;
+}
+
 .card-title{
     align-self: stretch; 
     text-align: center; 
@@ -1093,7 +1099,7 @@ nav {
 }
 
 .referencer-name{
-    align-self: stretch; 
+    align-self: start; 
     color: var(--cinnamon-bronze); 
     text-align: left;
     margin: 0;
@@ -1113,7 +1119,7 @@ nav {
 }
 
 .referencer-company{
-    align-self: stretch; 
+    align-self: start; 
     color: var(--raisin-gray);
     text-align: left;
     margin: 0;
@@ -1121,7 +1127,7 @@ nav {
 }
 
 .referencer-occupation{
-    align-self: stretch; 
+    align-self: start; 
     color: var(--raisin-gray); 
     text-align: left;
     margin: 0;
@@ -1146,6 +1152,11 @@ nav {
     
     .card-content{
         gap: 24px; 
+    }
+
+    .card-content p {
+        -webkit-hyphenate-character: none;
+        hyphens: none;
     }
 }
 
