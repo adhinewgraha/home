@@ -91,7 +91,11 @@ p.footer-text{
     height: 120%;
     margin: 0;
     color: var(--light-grayish-orange);
-    text-align: center;
+    text-align: justify;
+    text-align-last: center;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
 }
 
 .button-unfilled {
@@ -219,13 +223,9 @@ a:hover .cta-button-text {
         -ms-hyphens: none;
         hyphens: none;
     }
-}
 
-@media screen and (min-width: 1024px) {
     p.footer-text{
-        text-align: justify;
-        text-align-last: center;
-        hyphens: auto;
+        hyphens: none;
     }
 }
 
