@@ -1546,6 +1546,7 @@ h3.chapter-title {
 
 p.chapter-content, ul.chapter-content {
     margin: 0;
+    text-align-last: auto;
 }
 
 .subchapter-container {
