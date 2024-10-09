@@ -80,10 +80,13 @@ p, li{
     letter-spacing: 0.4%;
     text-align: justify;
     text-align-last: center;
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
+    -webkit-hyphenate-character: auto;
     hyphens: auto;
     word-wrap: break-word;
+}
+
+li {
+    text-align-last: auto;
 }
 
 p.footer-text{
@@ -93,8 +96,7 @@ p.footer-text{
     color: var(--light-grayish-orange);
     text-align: justify;
     text-align-last: center;
-    -webkit-hyphens: none;
-    -ms-hyphens: none;
+    -webkit-hyphenate-character: none;
     hyphens: none;
 }
 
@@ -219,8 +221,7 @@ a:hover .cta-button-text {
 
 @media screen and (min-width: 768px) {
     p, li {
-        -webkit-hyphens: auto;
-        -ms-hyphens: auto;
+        -webkit-hyphenate-character: auto;
         hyphens: auto;
         word-wrap: break-word;
     }
@@ -228,8 +229,7 @@ a:hover .cta-button-text {
     p.footer-text {
         text-align: justify;
         text-align-last: center;
-        -webkit-hyphens: none;
-        -ms-hyphens: none;
+        -webkit-hyphenate-character: none;
         hyphens: none;
     }
 }
@@ -237,8 +237,7 @@ a:hover .cta-button-text {
 @media screen and (min-width: 1024px) {
     p.footer-text {
         text-align-last: auto;
-        -webkit-hyphens: auto;
-        -ms-hyphens: auto;
+        -webkit-hyphenate-character: auto;
         hyphens: auto;
     }
 }
@@ -818,6 +817,7 @@ nav {
 .content p {
     margin-bottom: 24px;
     text-align: justify;
+    text-align-last: auto;
 }
 
 .content p.lang {
