@@ -21,7 +21,6 @@ h1{
     text-align: center;
     text-transform: uppercase;
     word-wrap: break-word;
-    /* font-size: clamp(2.664375rem, 2.162rem + 2.1433vw, 3.53375rem); */
     font-size: clamp(2.664375rem, 1.7128rem + 4.0601vw, 4.31125rem);
 }
 
@@ -80,6 +79,10 @@ p, li{
     line-height: 200%;
     letter-spacing: 0.4%;
     text-align: justify;
+    text-align-last: center;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
     word-wrap: break-word;
 }
 
@@ -210,9 +213,19 @@ a:hover .cta-button-text {
     background: var(--midnight-blue);
 }
 
+@media screen and (min-width: 768px) {
+    p, li{
+        -webkit-hyphens: none;
+        -ms-hyphens: none;
+        hyphens: none;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     p.footer-text{
         text-align: justify;
+        text-align-last: center;
+        hyphens: auto;
     }
 }
 
