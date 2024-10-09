@@ -93,9 +93,9 @@ p.footer-text{
     color: var(--light-grayish-orange);
     text-align: justify;
     text-align-last: center;
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
 }
 
 .button-unfilled {
@@ -218,14 +218,28 @@ a:hover .cta-button-text {
 }
 
 @media screen and (min-width: 768px) {
-    p, li{
+    p, li {
+        -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphens: auto;
+        word-wrap: break-word;
+    }
+
+    p.footer-text {
+        text-align: justify;
+        text-align-last: center;
         -webkit-hyphens: none;
         -ms-hyphens: none;
         hyphens: none;
     }
+}
 
-    p.footer-text{
-        hyphens: none;
+@media screen and (min-width: 1024px) {
+    p.footer-text {
+        text-align-last: auto;
+        -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphens: auto;
     }
 }
 
