@@ -79,15 +79,10 @@ p, li{
     line-height: 200%;
     letter-spacing: 0.4%;
     text-align: justify;
-    text-align-last: center;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
     word-wrap: break-word;
-}
-
-li {
-    text-align-last: auto;
 }
 
 p.footer-text{
@@ -231,7 +226,6 @@ a:hover .cta-button-text {
 
     p.footer-text {
         text-align: justify;
-        text-align-last: center;
         -webkit-hyphens: none;
         -ms-hyphens: none;
         hyphens: none;
@@ -822,7 +816,6 @@ nav {
 .content p {
     margin-bottom: 24px;
     text-align: justify;
-    text-align-last: auto;
 }
 
 .content p.lang {
@@ -1061,7 +1054,6 @@ nav {
 }
 
 .card-content p {
-    text-align-last: auto;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
@@ -1127,7 +1119,6 @@ nav {
     align-self: start; 
     color: var(--raisin-gray);
     text-align: left;
-    text-align-last: auto;
     margin: 0;
     line-height: 100%;
 }
@@ -1136,7 +1127,6 @@ nav {
     align-self: start; 
     color: var(--raisin-gray); 
     text-align: left;
-    text-align-last: auto;
     margin: 0;
     line-height: 100%;
 }
@@ -1565,7 +1555,6 @@ h3.chapter-title {
 
 p.chapter-content, ul.chapter-content {
     margin: 0;
-    text-align-last: auto;
 }
 
 .subchapter-container {
