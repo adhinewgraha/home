@@ -981,7 +981,6 @@ nav {
     gap: 12px; 
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
 }
 
 .keyword-inner-container {
