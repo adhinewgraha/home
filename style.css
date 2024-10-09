@@ -991,7 +991,7 @@ nav {
 
 .project-keyword {
     word-wrap: normal;
-    margin: 0;
+    margin: auto;
 }
 
 @media screen and (min-width: 768px) {
