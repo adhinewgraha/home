@@ -99,7 +99,7 @@ p.footer-text {
 
 p.footer-text.copyright {
     text-align: center;
-    font-size: clamp(0.75rem, 0.75rem + 0vw, 0.75rem);
+    font-size: clamp(0.75rem, 0.5115rem + 1.0178vw, 1rem);
 }
 
 .button-unfilled {
