@@ -85,7 +85,7 @@ p, li{
     word-wrap: break-word;
 }
 
-p.footer-text{
+p.footer-text {
     width: 100%;
     height: 120%;
     margin: 0;
@@ -95,6 +95,11 @@ p.footer-text{
     -webkit-hyphens: none;
     -ms-hyphens: none;
     hyphens: none;
+}
+
+div.footer-text {
+    line-height: 180%;
+    letter-spacing: 0.4%;
 }
 
 .button-unfilled {
@@ -1704,17 +1709,6 @@ footer {
     background-size: contain;
     background-repeat: no-repeat;
     display: inline-block;
-}
-
-.copyright {
-    align-self: stretch;
-    text-align: center;
-    color: var(--light-grayish-orange);
-    font-size: 16px;
-    font-family: Roboto Mono;
-    font-weight: 300;
-    line-height: 120%;
-    word-wrap: break-word;
 }
 
 @media screen and (min-width: 768px) {
