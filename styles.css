@@ -97,6 +97,10 @@ p.footer-text {
     hyphens: none;
 }
 
+p.footer-text.copyright {
+    text-align: center;
+}
+
 .button-unfilled {
     width: fit-content; 
     height: 100%; 
