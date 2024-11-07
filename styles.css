@@ -1706,6 +1706,18 @@ footer {
     display: inline-block;
 }
 
+.copyright {
+    align-self: stretch;
+    text-align: center;
+    color: var(--light-grayish-orange);
+    font-size: 16px;
+    font-family: Roboto Mono;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.19px;
+    word-wrap: break-word;
+}
+
 @media screen and (min-width: 768px) {
     .footer-wrapper{
         padding: 32px 64px 128px;
